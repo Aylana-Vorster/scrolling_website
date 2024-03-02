@@ -1,0 +1,18 @@
+.timeline li {
+    display: flex;
+    /* Use Flexbox */
+}
+
+.timeline .date {
+    width: 80px;
+    /* Adjust as needed */
+    margin-right: 10px;
+    /* Adjust as needed */
+    flex-shrink: 0;
+    /* Prevents the date from shrinking if space is tight */
+}
+
+.timeline .event {
+    flex-grow: 1;
+    /* Allows the event to take up the remaining space */
+}
